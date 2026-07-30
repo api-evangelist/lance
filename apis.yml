@@ -1,22 +1,77 @@
 aid: lance
 name: Lance
-description: Lance is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Lance (Lance AI, Inc.) is a Y Combinator Winter 2026 company building
+  autonomous AI agents for hotel operations. Its platform handles guest
+  interactions and back-of-house coordination end to end: a Receptionist agent
+  answers guest calls, SMS, email, and hotel messaging platforms 24/7 in
+  multiple languages, resolving questions and routing service requests; a Sales
+  agent responds to booking inquiries and RFPs, qualifies leads, and follows up
+  on opportunities; and Lance Pad is a tablet-based coordination surface that
+  replaces walkie-talkies and tracks guest requests, housekeeping, work orders,
+  and scheduling in real time. Lance reports use across brands including
+  Marriott, Hilton, and Hyatt and more than 50 hotels, citing an 89% call
+  success rate and a 30%+ reduction in front-desk call volume. Architecturally
+  the company is notable for deliberately avoiding integration APIs: it uses
+  computer-use and computer-vision agents to drive legacy property management,
+  task, and reservation systems through their user interfaces rather than
+  through vendor APIs. Lance is surfaced here as a portfolio company of Y
+  Combinator. It publishes no public developer API, OpenAPI definition, SDKs,
+  developer portal, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/lance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-public-api
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.lance.live/og-image.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Hospitality
+- Hotels
+- Hotel Operations
+- Voice AI
+- Customer Service
+- Computer Use Agents
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/lance-domain-security.yml
+- type: LLMsTxt
+  url: llms/lance-llms.txt
+- type: Website
+  url: https://www.lance.live
+- type: Login
+  url: https://www.lance.live/login
+- type: TermsOfService
+  url: https://www.lance.live/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.lance.live/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
