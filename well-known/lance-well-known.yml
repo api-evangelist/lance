@@ -1,0 +1,43 @@
+generated: '2026-07-19'
+method: probed
+source: live probes of Lance hosts (www.lance.live, lance.live)
+summary: >-
+  No /.well-known/ discovery documents are published on the Lance hosts. Every
+  probed path returned 404, as did /llms.txt and /robots.txt. Absence is valid
+  data. No WellKnown or SecurityTxt pointer is emitted in apis.yml because
+  nothing was found. Lance also publishes no developer subdomains: docs.,
+  api., developers., app., status., and blog.lance.live have no DNS records.
+hosts:
+- host: https://www.lance.live
+  paths:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /robots.txt
+    status: 404
+- host: https://lance.live
+  paths:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /robots.txt
+    status: 404
+files: []
