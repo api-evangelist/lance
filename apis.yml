@@ -50,7 +50,7 @@ accessModel:
 image: https://www.lance.live/og-image.png
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Artificial Intelligence
@@ -80,6 +80,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.lance.live/news
+  type: Blog
 - type: DomainSecurity
   url: security/lance-domain-security.yml
 - type: LLMsTxt
