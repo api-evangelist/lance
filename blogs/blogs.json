@@ -1,0 +1,14 @@
+{
+  "repo": "lance",
+  "feeds": [
+    {
+      "source": "https://www.lance.live/news",
+      "feed_url": "https://www.lance.live/news",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-10-10T13:15:00Z"
+}
